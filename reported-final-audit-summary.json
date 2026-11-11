@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "tasks": 60,
+  "independently_parsed_calls": 2400,
+  "source_file_hashes_checked": 52284,
+  "independent_gold_all60_agrees": true,
+  "strict_parse_rotations_vote_ordinal_paths_agree": true,
+  "primary_and_secondary_bootstrap_ci_agree": true,
+  "max_prompt_tokens": 960,
+  "results_sha256": "ad5b8537c1ba12971bceee4c21835fb8c37ee8005217fe1bc2a086cb32c17adf",
+  "audit_code_sha256": "da11f75977fe8eafa13594fcd6fa53e7f1cdb7f54b7c5e45af408f2f5bbfd2e5",
+  "limitations": "Independent logic uses same source/patch evidence; no repair execution, globally unseen or contamination-free claim."
+}

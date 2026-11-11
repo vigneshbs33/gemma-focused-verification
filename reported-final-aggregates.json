@@ -1,0 +1,77 @@
+{
+  "scope": "Aggregate measured results for video; no new inference",
+  "evaluation_tasks": 60,
+  "exact_definition_successes": {
+    "T5": 11,
+    "T20": 10,
+    "V20": 15,
+    "Dense1": 12
+  },
+  "function_only_successes": {
+    "T5": 9,
+    "T20": 8,
+    "V20": 12,
+    "Dense1": 12
+  },
+  "coarse_module_successes": {
+    "T5": 34,
+    "T20": 35,
+    "V20": 33,
+    "Dense1": 25
+  },
+  "primary_v20_minus_t20": {
+    "delta": 0.08333333333333333,
+    "wins": 7,
+    "losses": 2,
+    "ties": 51,
+    "task_ci95": [
+      -0.016666666666666666,
+      0.18333333333333332
+    ],
+    "repository_cluster_ci95": [
+      0.0,
+      0.16666666666666666
+    ],
+    "n_clusters": 10,
+    "denominator": 60
+  },
+  "selection_resource_totals": {
+    "T5": {
+      "calls": 300,
+      "prompt_tokens": 259053,
+      "generation_seconds": 989.3267333119948
+    },
+    "T20": {
+      "calls": 1200,
+      "prompt_tokens": 1036589,
+      "generation_seconds": 3593.9494890840324
+    },
+    "V20": {
+      "calls": 1200,
+      "prompt_tokens": 610149,
+      "generation_seconds": 2455.0459025140844
+    },
+    "Dense1": {
+      "calls": 0,
+      "prompt_tokens": 0,
+      "generation_seconds": 0
+    }
+  },
+  "coverage": {
+    "lexical320_pool_with_strict_target": 44,
+    "shortlist20_with_strict_target": 35
+  },
+  "later_exploratory_codesage_small_v2_exact": 10,
+  "earlier_replacement_experiment": {
+    "structural": 14,
+    "semantic_control": 16,
+    "tasks": 60
+  },
+  "qwen_resource_gate": "failed; no accuracy result",
+  "not_completed": [
+    "strongest published system reproduction",
+    "patch/repair tests",
+    "fresh independently evaluated cohort",
+    "token-matched ablation"
+  ]
+}
